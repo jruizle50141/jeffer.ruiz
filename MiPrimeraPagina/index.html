@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>El Universo</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="jumbotron text-center">
+    <h1>El Universo</h1>
+    <p>Informacion sobre los planetas, estrellas y otros</p> 
+  </div>
+
+  <div class="container text-center">
+    <h1>El Universo</h1>
+    <img src="images/universo.png" class="img-rounded" alt="El Universo" height="236"> 
+  </div>
+
+  <div class="container text-center">
+    <audio controls autoplay>
+      <source src="sounds/space.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <h2>Secciones:</h2>
+    <div class="list-group">
+      <a href="planetas.html" class="list-group-item list-group-item-success">PLANETAS</a>
+      <a href="satelites.html" class="list-group-item list-group-item-info">SATELITES</a>
+      <a href="estrellas.html" class="list-group-item list-group-item-warning">ESTRELLAS</a>
+      <a href="galaxias.html" class="list-group-item list-group-item-danger">GALAXIAS</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container">
+  <h2>Contactenos:</h2>
+  <form action="procesar.html">
+    <div class="form-group">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input type="password" class="form-control" id="pwd" placeholder="Usuario">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input type="email" class="form-control" id="email" placeholder="Correo electronico">
+      </div>
+    </div>
+
+    <input type="date" name="enviado">
+
+    <div class="checkbox">
+      <label><input type="checkbox"> Recordarme</label>
+    </div>
+    <button type="submit" class="btn btn-default">   Enviar   </button>
+  </form>
+  </div>
+
+  <hr>
+  <br/><br/>
+
+  <div class="footer text-center">
+      <p>El Universo (c) 2019</p>
+  </div>
+
+</body>
+
+</html>
